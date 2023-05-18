@@ -59,7 +59,7 @@ nav ul li{
 
 .bottom{
     position: sticky;
-    height: 15vh;
+    height: 100px;
     width: 100%;
     background-color: rgb(27, 19, 36);
     color: rgb(216, 191, 216);
@@ -213,7 +213,7 @@ nav ul li{
         margin-top: 125px;
     }
     .bottom{
-        height: 15vh;
+        height: 92px;
     }
 }
 
