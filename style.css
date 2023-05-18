@@ -151,17 +151,19 @@ nav ul li{
     display: inline-block;
 }
 .drop{
-    background-color: rgba(56, 115, 242, 0.538);
-    width:150px;
+    background-color: rgba(48, 22, 73, 0.8);
+    color: aliceblue;
+    width: 150px;
     display: inline-block;
-    border: 2px solid white;
+    border: 1px solid aliceblue;
     border-radius: 5px;
     margin-left: -60px;
     margin-top: 170px;
     padding: 5px;
     z-index: 1;
     font-family:  "Space Grotesk",sans-serif;
-    display: none;
+    opacity: 0;
+    transition: 0.5s;
 }
 @media only screen and (min-width:769px){
     .i1:hover{
