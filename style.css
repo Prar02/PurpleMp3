@@ -44,7 +44,7 @@ nav ul li{
     justify-content: center;
     align-items: center;
     min-height: 63vh;
-    margin: 50px auto;
+    margin: 23px auto;
     font-family: 'Comfortaa', sans-serif;
     background-color: rgb(27, 19, 36);
     color: rgb(216, 191, 216);
@@ -190,7 +190,7 @@ nav ul li{
         font-size: small;
     }
 }
-@media only screen and (max-width:417px){
+@media only screen and (max-width:600px){
     .timestamp{
         font-size: small;
         margin-right: 2px;
@@ -213,7 +213,7 @@ nav ul li{
         margin-top: 125px;
     }
     .bottom{
-        height: 20vh;
+        height: 15vh;
     }
 }
 
