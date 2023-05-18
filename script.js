@@ -9,15 +9,14 @@ function rload(){
 
 function popt(){
     let drop = document.getElementsByClassName("drop")[0];
-    if(drop.style.display != 'block'){
-        drop.style.display='block';
+    if(drop.style.opacity != '1'){
+        drop.style.opacity='1';
     }
     else{
-        drop.style.display='none';
+        drop.style.opacity='0';
     }
 
 }
-
 
 if(window.innerWidth>768){
     si.forEach( si1=>{
