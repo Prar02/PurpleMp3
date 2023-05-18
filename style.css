@@ -212,9 +212,6 @@ nav ul li{
         font-size: small;
         margin-top: 125px;
     }
-    .bottom{
-        height: 200px;
-    }
 }
 
 @media only screen and (max-width:407px){
